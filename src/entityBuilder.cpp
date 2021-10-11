@@ -99,7 +99,6 @@ for ( unsigned int i = 0; i < numberOfEntities; ++i )
 
   }
   entities[i] = new Entity(Rectangle2D(vec2(x,y),vec2(width,height),i),comp);
-  std::cout << std::endl << std::endl;
   // TODO: Use the above information to create an Entity with
   // a Rectangle2D bounding box and given Components.
 }
